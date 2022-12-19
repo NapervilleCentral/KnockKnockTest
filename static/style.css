@@ -1,0 +1,159 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  background-color: #FAF9F6;
+}
+
+h1 {
+  float: left;
+  padding: 15px;
+  font-size: 30px;
+  margin-top: 0px;
+  color: #FAF9F6;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  float: left;
+  text-align: right;
+  background-color: #e4793c;
+  height: 70px;
+  top: 0;
+  left: 0;
+}
+
+footer {
+  background-color: #e4793c;
+  width: 100%;
+  margin-top: 25px;
+  border-top: 10px solid #e4793c;
+  border-bottom: 10px solid #e4793c;
+  clear: both;
+  margin-left: 0;
+  float: left;
+}
+
+footer a {
+  color: #FAF9F6;
+  padding: 15px;
+}
+
+footer p {
+  text-align: center;
+}
+
+nav {
+  padding: 25px;
+}
+
+nav a {
+  padding-right: 15px;
+  color: #FAF9F6;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #415C75;
+}
+
+#mainimg {
+  width: 100%;
+  margin: auto;
+  filter: brightness(30%);
+  border: 3px solid white;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 25px;
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#imgm {
+  font-size: 50px;
+  color: white;
+}
+
+#top {
+  height: 100px;
+}
+
+#mhead {
+  z-index: 10;
+}
+
+#imgl {
+  color: white;
+}
+
+.container:hover {
+  filter: brightness(150%);
+}
+#abt{
+  text-align: center;
+  color: white;
+  width: 80%;
+  background-color: #415c75;
+  margin: auto;
+  border: 3px solid #415c75;
+}
+
+#abt-text{
+  line-height: 40px;
+}
+
+#us{
+  width: 76%;
+  padding: 2%;
+  background-color: lightgrey;
+  margin: auto;
+  border: 3px solid white;
+  color: black;
+}
+
+/* form styling */
+form {
+  padding: 25px;
+  margin: 25px;
+  box-shadow: 0 2px 5px #f5f5f5; 
+  background: #FAF9F6; 
+  }
+
+  input, textarea {
+  width: calc(100% - 18px);
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #1c87c9;
+  outline: none;
+  }
+
+  input::placeholder {
+  color: #666;
+  }
+
+  button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #1c87c9; 
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  }
+
+  button:hover {
+  background: #2371a0;
+  }    

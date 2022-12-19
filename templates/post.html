@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KnockKnock | Post</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato"> 
+    <style>      
+    </style>
+  </head>
+  <body>
+    <header id='mhead'>
+      <h1>KnockKnock</h1>
+      <nav>
+        <a href="home">Home</a>
+        <a href="post">Post</a>
+      </nav>
+    </header>
+    <div class="main-block">
+      <div class="left-part">
+      </div>
+      <form action="/">
+        <h2>Post A Job</h2>
+        <div class="info">
+          <input class="fname" type="text" name="name" placeholder="Job name">
+          <input type="text" name="name" placeholder="Enter your requested price here">
+          <input type="text" name="name" placeholder="Enter your location here. EX: Neighborhood, City, Zip Code.">
+          <input type="text" name="name" placeholder="Enter your goal here. EX: Guitar.">
+        </div>
+        <p>Describe your job here. This can include what you plan on doing.</p>
+        <div>
+          <textarea rows="4"></textarea>
+        </div>
+        <p>Put your contact information in here. Order from most used to least used.</p>
+        <div>
+          <textarea rows="4"></textarea>
+        </div>
+        <button type="submit" href="/">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
